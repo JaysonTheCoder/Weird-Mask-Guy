@@ -1,0 +1,42 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+#canvas {
+  border: 1px solid lime;
+  background: grey;
+  z-index: 999;
+}
+.controller {
+  display: flex;
+  justify-content: space-between;
+  margin: 70px;
+  
+  width: 150px;
+}
+.button:first-child{
+  padding: 15px;
+  
+  transform: rotate(45deg);
+  border-left: 20px solid;
+  border-bottom: 20px solid;
+}
+.button:nth-child(2){
+  padding: 15px;
+  
+  transform: rotate(45deg);
+  border-right: 20px solid;
+  border-top: 20px solid;
+}
+.button:active {
+  border-color: lime;
+}
+.attackbtn {
+  padding: 50px;
+  border: 2px solid;
+  position: absolute;
+  right: 50px;
+}
+.attackbtn:active {
+  border-color: lime ;
+}
